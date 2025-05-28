@@ -7,6 +7,6 @@ public:
             if( i%m > 0 ) num1 += i;//不整除加到num1
             else num2 += i;//整除加到num2
         }
-        return num1 - num2;
+        return num1 - num2; 
     }
 };

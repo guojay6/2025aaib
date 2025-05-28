@@ -9,7 +9,7 @@ int helper(int n)
         if(a[now]>1) return 1;
         n= n/10;
     }
-    return 0;
+    return 0; 
 }
 int main()
 {
@@ -17,6 +17,6 @@ int main()
     for(int i=0; i<9999; i++){///0000..9999
         if(helper(i)==1) ans++;
     }
-    printf("%d",ans);
+    printf("%d",ans); 
 }
 
